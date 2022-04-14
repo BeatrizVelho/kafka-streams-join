@@ -1,0 +1,11 @@
+{
+  "namespace": "com.marionete.model",
+  "type": "record",
+  "name": "CombinedOrder",
+  "fields": [
+    {"name": "fruit_id", "type": "string"},
+    {"name": "vegetable_id", "type": "string"},
+    {"name": "order_id", "type": "string"},
+    {"name": "user_id", "type": "string", "default": ""}
+  ]
+}

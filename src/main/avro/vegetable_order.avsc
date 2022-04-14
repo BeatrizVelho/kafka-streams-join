@@ -1,0 +1,10 @@
+{
+  "namespace": "com.marionete.model",
+  "type": "record",
+  "name": "VegetableOrder",
+  "fields": [
+    {"name": "order_id", "type": "string" },
+    {"name": "vegetable_id", "type": "string" },
+    {"name": "user_id", "type": "string" }
+  ]
+}
