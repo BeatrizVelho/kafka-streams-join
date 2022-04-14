@@ -1,15 +1,3 @@
-# kafka-streams-join
-
-- [Set up the local development environment](#set-up-the-local-development-environment)
-	- [Interacting with the cluster](#interacting-with-the-cluster)
-	- [Clean up the local environment](#clean-up-the-local-environment)
-- [Adapted Lab Guides](#adapted-lab-guides)
-- [Download Kafka Binaries](#download-kafka-binaries)
-- [Troubleshooting](#troubleshooting)
-	- [Using the containerized kafka environment](#using-the-containerized-kafka-environment)
-	- [Remember to clean the volumes across changes or executions](#remember-to-clean-the-volumes-across-changes-or-executions)
-
-
 # Introduction
 
 This project has code to join two streams. Since joins are made exclusively by the record's key, a rekey mechanism was implemented, and to be used, the following properties should be added to the `resources/streams.properties` file:
